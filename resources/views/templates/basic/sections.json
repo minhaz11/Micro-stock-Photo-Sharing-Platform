@@ -1,0 +1,227 @@
+{
+
+    "hero": {
+        "builder": true,
+        "no_selection":true,
+        "name": "Banner Section",
+        "content": {
+            "images":{
+                "background_image":{
+                    "size":"1920x1080"
+                    
+                }
+            },
+            "heading": "text"
+           
+        }
+
+    },
+    "latest": {
+        "builder": true,
+        "no_selection":true,
+        "name": "Latest Photo Section",
+        "content": {
+            "heading": "text",
+            "short_details":"textarea"
+           
+        }
+
+    },
+    
+    "invite": {
+        "builder": true,
+        "name": "Invite Section",
+        "content": {
+            "images":{
+                "background_image":{
+                    "size":"1920x1280"
+                }
+            },
+            "heading": "text",
+            "short_description": "textarea",
+            "button_text": "text",
+            "button_link": "text"
+        }
+
+    },
+    "pricing": {
+        "builder": true,
+        "name": "Pricing Section",
+        "content": {
+           
+            "heading": "text",
+            "short_details":"textarea",
+            "button_text": "text"
+        }
+
+    },
+    "counter": {
+        "builder": true,
+        "name": "Counter Section",
+        "content": {
+            "images":{
+                "background_image":{
+                    "size":"1920x1280"
+                }
+              },
+            "first_count_heading": "text",
+            "first_count_icon": "icon",
+            "first_count_number": "text",
+           
+            "second_count_heading": "text",
+            "second_count_icon": "icon",
+            "second_count_number": "text",
+          
+            "third_count_heading": "text",
+            "third_count_icon": "icon",
+            "third_count_number": "text",
+           
+            "fourth_count_heading": "text",
+            "fourth_count_icon": "icon",
+            "fourth_count_number": "text"
+            
+        },
+        "element":{
+            "title": "text",
+            "short_description": "textarea",
+            "heading_icon": "icon",
+            "modal": true
+        }
+
+    },
+
+    "testimonial": {
+        "builder": true,
+        "name": "Testimonial Section",
+        "content": {
+            "images":{
+                "background_image":{
+                    "size":"1920x1280"
+                }
+              },
+            "heading": "text"
+        },
+        "element": {
+            "images":{
+                "author_image":{
+                    "size":"100x100"
+                }
+              },
+            "author": "text",
+            "designation": "text",
+            "quote": "textarea",
+            "modal": true
+        }
+    },
+
+    "subscribe": {
+        "builder": true,
+        "name": "Subscribe Section",
+        "content": {
+            "heading": "text",
+            "short_details": "textarea"
+        }
+
+    },
+    "services": {
+        "builder": true,
+        "name": "Services Section",
+        "content": {
+            "heading": "text",
+            "short_details": "textarea"
+        },
+        "element":{
+            "icon":"icon",
+            "title":"text",
+            "short_details":"textarea",
+            "modal":true
+        }
+
+    },
+
+    "footer": {
+        "builder": true,
+        "name": "Footer Section",
+        "no_selection":true,
+        "content": {
+            "summery":"textarea"
+        },
+        "element": {
+            "link": "text",
+            "social_icon": "icon",
+            "modal": true
+        }
+    },
+  
+    "breadcrumb": {
+        "builder": true,
+        "name": "Breadcrumb",
+        "no_selection":true,
+        "content":{
+            "images":{
+                "background_image":{
+                      "size":"1920x1080"
+                 }
+            }
+        }
+    },
+    "login": {
+        "builder": true,
+        "name": "Login & Reg page",
+        "no_selection":true,
+        "content":{
+            "images":{
+                "background_image":{
+                      "size":"1920x1280"
+                 }
+            }
+           
+        }
+    },
+    "policy": {
+        "builder": true,
+        "name": "Manage Policies",
+        "no_selection":true,
+        "element":{
+            "title":"text",
+            "details":"textarea-nic",
+            "modal":false
+           
+        }
+    },
+    "faq": {
+        "builder": true,
+        "name": "Faq Section",
+        "no_selection":true,
+        "content":{
+            "heading":"text",
+            "short_details":"textarea"
+        },
+        "element":{
+            "question":"text",
+            "answer":"textarea-nic",
+            "modal":false
+           
+        }
+    },
+
+    "contact": {
+        "builder": true,
+        "name": "Contact Page",
+        "no_selection":true,
+        "content": {
+            "images":{
+                "background_image":{
+                      "size":"1920x1280"
+                 }
+            },
+            "address":"text",
+            "email_address":"text",
+            "phone_number":"text"
+        }
+        
+    }
+
+
+
+}
